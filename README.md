@@ -75,7 +75,7 @@ AI와 Tutor와 함께하는 코딩 교육 플랫폼 [Runtric](https://runtric.co
     - Production과 Development 환경이 분리되어야 안정성있는 서비스 및 개발할때도 빠름
     - Client와 Server 모두 **Local / Alpha / Live 환경**을 분리하여 독립적인 환경을 구축하였음(클라 담당).
     - Alpha 환경에는 Admin API와 연결된 Admin Tool을 만듬으로써 **QA 효율을 개선**.
-    - local 환경에서는 Cloudflare Tunnel과 `local.runtric` DNS alias를 응용해 Next.js 로컬 환경을 맥 시뮬레이터와 연결하도록 설졍함. 모바일 유저도 대응할 수 있게 하여 기능 사용 참여율을 높임.
+    - local 환경에서는 Cloudflare Tunnel과 `local.runtric` DNS alias를 응용해 Next.js 로컬 환경을 맥 시뮬레이터와 연결하도록 설졍함. 모바일 유저(전체 방문자 중 41%)도 대응할 수 있게 하여 기능 사용 참여율을 높임.
 
 4. 환경 분리로 인한 크롤링 문제 및 이미지 리소스 문제
     - 환경 분리로 인해 알파 클라이언트 웹 사이트를 구글 봇이 클롤링할 수 있었음.
