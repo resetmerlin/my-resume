@@ -66,7 +66,7 @@ AI와 Tutor와 함께하는 코딩 교육 플랫폼 [Runtric](https://runtric.co
    - 성과: 구축된 로깅 시스템을 통해 기능별 리텐션, 퍼널, 전환율 등 핵심 지표를 정량적으로 파악할 수 있게 됨
    
 2. 개발·QA 환경 분리 작업  
-    - 문제 및 배경: Production과 Development 환경이 분리되지 않아 안정적인 서비스 운영과 효율적인 개발이 어려웠으며, QA 환경과 SEO 크롤링 정책에서도 혼선이 발생함  
+    - 문제 및 배경: Production과 Development 환경이 분리되지 않아 안정적인 서비스 운영과 효율적인 개발이 어려웠으며, QA 환경에서도 혼선이 발생함  
     - 해결안 (1): 클라이언트 플랫폼 담당으로서 서버 환경에 맞게 Local / Alpha / Live 환경을 구축하여 독립적인 개발·배포 구조를 완성함  
     - 해결안 (2): Alpha 환경에는 Admin API와 연동된 Admin Tool을 추가해 QA 효율을 개선하고, Local 환경에서는 Cloudflare Tunnel과 `local.runtric` DNS alias를 적용해 Next.js 로컬 환경을 맥 시뮬레이터와 연결함
     - 성과: 안정적인 개발·운영 프로세스를 확보하고, QA 효율과 전체 방문자의 41%를 차지하는 모바일 유저 테스트 참여율을 향상시킴  
