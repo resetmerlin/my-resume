@@ -93,27 +93,15 @@ AI와 Tutor와 함께하는 코딩 교육 플랫폼 [Runtric](https://runtric.co
     - 해결안 (2): 튜토리얼 생성 시 프리렌더링 동기화를 위해 전체 빌드를 다시 요구하던 문제를 Next.js SSR을 활용해 개선하고, 404 fallback 대신 서버 런타임에서 API 호출로 HTML을 동기화·렌더링하도록 변경함
 
 
----
 
-## 사이드 프로젝트(Efforts to improve CS)
-퇴사 전 피드백 받은 CS 지식을 보완하기 위해 시작,
+# 사이드 프로젝트
 
-### [Mitmar'd DB](https://github.com/talmid-mitmared/mitmar-d-DB/tree/chunk/btree)
-**Frontend / 2025.04 ~ 2025.11**  
-- 문제 및 배경: 파일·폴더 검색 효율을 높이기 위해 개인용 데스크톱 DB를 개발하면서  
-  TypeScript로 B-tree(Insert, Search, Delete) 인덱싱 알고리즘을 직접 구현함  
-  구현 과정에서 재귀 기반 트리 구조에서 참조(Mutability) 문제가 발생함  
-- 해결안: [React Fiber 접근 방식](https://github.com/facebook/react/issues/7942)을 응용하여 `do-while` 반복 구조로 리팩터링해  
-  참조 불안정 문제를 해결하고, 안정적인 노드 순회 로직을 완성함
+### [Mitmar'd DB](https://github.com/talmid-mitmared/mitmar-d-DB/tree/chunk/btree) **Frontend / 2025.04 ~ 2025.11**  
+- 문제 및 배경: 파일·폴더 검색 효율을 높이기 위해 개인용 데스크톱 DB를 개발하면서 TypeScript로 B-tree(Insert, Search, Delete) 인덱싱 알고리즘을 직접 구현함. 구현 과정에서 재귀 기반 트리 구조에서 참조(Mutability) 문제가 발생함  
+- 해결안: [React Fiber 접근 방식](https://github.com/facebook/react/issues/7942)을 응용하여 `do-while` 반복 구조로 리팩터링해 참조 불안정 문제를 해결하고, 안정적인 노드 순회 로직을 완성함
 
-### [WebOS](https://github.com/resetmerlin/Web-OS/tree/main)
-**Frontend / 2024.12 ~ 2025.02**  
-- 문제 및 배경: 운영체제 아키텍처 학습 과정에서 x86 구조의 동작 원리를 코드로 직접 구현하며 이해하고자 함. 특히, 버스(bus)가 동적으로 연결되는 하드웨어 특성을 웹 환경에서 재현하기 어려움  
-- 해결안: React 의존 없이 `CustomEvent`를 활용해 버스 신호를 실시간으로 전달하도록 설계해 x86의 fetch–decode–execute 사이클을 시뮬레이션함. Program Counter와 Offset을 이용해 명령어 실행 흐름을 재현함
 
----
-
-## 기타 (Etc)
+# 기타 (Etc)
 
 * **YouTube 기술 콘텐츠 제작**  
   - 토스증권 근무 초기, 피드백받은 커뮤니케이션 문제를 개선하기 위해 매일 학습한 기술 개념을 YouTube에 설명 형식으로 업로드함  
@@ -124,16 +112,14 @@ AI와 Tutor와 함께하는 코딩 교육 플랫폼 [Runtric](https://runtric.co
   - 설치 없이 웹 환경에서 변수와 입출력 등 Python 문법을 활용해 학생들이 자신의 이름과 값을 개인 웹사이트에 넣을 수 있도록 지도함  
   - 1교시 반 만에 전원이 완성 목표를 달성했으며, 학생들의 코딩 입문에 대한 부담과 편견을 해소함
 
----
 
-## 학력 및 자격 (Education & Certifications)
+# 학력 및 자격 (Education & Certifications)
 
 * **단국대학교 컴퓨터공학과 (B.Sc.)**
   2021 ~ 현재 재학 중
 
----
 
-## 기술 스택 (Technologies & Languages)
+# 기술 스택 (Technologies & Languages)
 
 * **언어:** ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black) ![HTML](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white) ![CSS](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
 * **기술:** ![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black) ![Next.js](https://img.shields.io/badge/Next.js-000000?logo=nextdotjs&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-06B6D4?logo=tailwindcss&logoColor=white) ![React Query](https://img.shields.io/badge/React%20Query-FF4154?logo=reactquery&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-232F3E?logo=amazonaws&logoColor=white) ![Turborepo](https://img.shields.io/badge/Turborepo-000000?logo=turborepo&logoColor=white), ![SCSS](https://img.shields.io/badge/SCSS-CC6699?logo=sass&logoColor=white)
