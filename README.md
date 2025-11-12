@@ -29,7 +29,7 @@
 ***해결한 주요 문제들***
 1. 마진 거래 백오피스 UX 개선
     - 배경 및 문제: 운영팀이 외상(미정산) 사용자의 상환 순서를 수동으로 조정해야 하는 UX 문제
-    - 해결안: >**Drag & Drop 기반 순서 변경 UI를 도입**하여 운영팀의 업무 효율 향상에 기여.
+    - 해결안: **Drag & Drop 기반 순서 변경 UI를 도입**하여 운영팀의 업무 효율 향상에 기여.
 2. 서버 드리븐 UI에 맞지 않는 인터페이스 대응
     - 배경 및 문제: 기존 해외 주식 서버에서의 테이블을 그리기 위한 서버 드리븐 인터페이스가 국내 서버에서 퍼포먼스 이슈로 커서 방식 API를 줘 기존 UI와 인터페이스 불일치한 문제
     - 해결안: **커서 방식 API를 응용하여 기존 해외 주식 플랫폼 서버 드리븐 UI에 맞도록 추상화**, 요건에 맞는 UI를 그림. 추후 이런 문제를 대비해 국내 서버와 협업할 경우를 대비하여 재사용할 수 있도록 추상화함.
@@ -77,7 +77,7 @@ AI와 Tutor와 함께하는 코딩 교육 플랫폼 [Runtric](https://runtric.co
 1. 커스텀 마크다운 UI 개선  
     - 문제 및 배경: 베타 런칭 후 로깅 분석 결과, 챕터 페이지의 이탈률이 높았으며 글 위주의 튜토리얼 콘텐츠가 낮은 몰입도의 주요 원인으로 확인됨  
     - 해결안: 코드·카드·퀴즈 등 다양한 콘텐츠 타입을 통합 관리할 수 있는 Runtric 전용 커스텀 마크다운 모듈을 개발하고, 카드형 UI를 적용해 가시성과 몰입도를 강화함  
-    - 성과: [Reddit 피드백(“튜토리얼이 너무 쉽다”)](https://www.reddit.com/r/websitefeedback/comments/1nu9xe2/comment/nhcn20i/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)을 반영해 주 내 기능을 구현하여 정식 런칭 전에 반영할 수 있었음
+    - 성과: [Reddit 피드백(“튜토리얼이 너무 쉽다”)](https://www.reddit.com/r/websitefeedback/comments/1nu9xe2/comment/nhcn20i/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)을 반영해 2주 내 기능을 구현하여 정식 런칭 전에 반영할 수 있었음
 
 2. 챕터 페이지 렌더링 지연 문제 해결  
     - 문제 및 배경: Runtric의 챕터 페이지는 서버로부터 받은 Markdown을 커스텀 UI로 변환하기 때문에 런타임 시 JS 청크가 커지고, 싱글 스레드 환경 특성상 렌더링 대기 시간이 발생함  
