@@ -65,12 +65,6 @@ AI와 Tutor와 함께하는 코딩 교육 플랫폼 [Runtric](https://runtric.co
    - 문제 및 배경: postHog 자동 캡처 데이터가 과도하게 수집되어, MVP 단계에서 유저의 핵심 기능 선호도를 파악하기 어려운 문제가 존재함  
    - 해결안: Feature, Navigation, Fallback 카테고리를 정의한 클라이언트 로깅 시스템을 설계 및 별도의 팀 만의 로깅 이름을 붙인 후, postHog 기반 커스텀 이벤트 훅을 구현함  
    - 성과: 구축된 로깅 시스템을 통해 기능별 리텐션, 퍼널, 전환율 등 핵심 지표를 정량적으로 파악할 수 있게 됨
-  
-2. 개발·QA 환경 분리 작업  
-    - 문제 및 배경: Production과 Development 환경이 분리되지 않아 안정적인 서비스 운영과 효율적인 개발이 어려움  
-    - 해결안 (1): 클라이언트 플랫폼 담당으로서 서버 환경에 맞게 Local / Alpha / Live 환경을 구축해 독립적인 개발·배포 구조를 완성함  
-    - 해결안 (2): Alpha 환경에는 Admin API와 연동된 Admin Tool을 추가해 QA 효율을 개선하고, Local 환경에는 Cloudflare Tunnel과 `local.runtric` DNS alias를 적용해 Next.js 로컬 환경을 맥 시뮬레이터와 연결함  
-    - 성과: 안정적인 개발·운영 프로세스를 확보하고, 전체 방문자의 41%를 차지하는 모바일 유저의 MVP 참여율을 향상시킴
    
 2. 개발·QA 환경 분리 작업  
     - 문제 및 배경: Production과 Development 환경이 분리되지 않아 안정적인 서비스 운영과 효율적인 개발이 어려웠으며, QA 환경과 SEO 크롤링 정책에서도 혼선이 발생함  
