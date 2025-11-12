@@ -72,7 +72,7 @@ AI와 Tutor와 함께하는 코딩 교육 플랫폼 [Runtric](https://runtric.co
 1. 커스텀 마크다운 UI 개선  
     - 문제 및 배경: 베타 런칭 후 로깅 분석 결과, 챕터 페이지의 이탈률이 높음을 확인, 글만 존재하는 튜토리얼 콘텐츠가 문제임을 판단
     - 해결안: 글을 대신할 코드·카드·퀴즈 등 다양한 콘텐츠 타입을 통합 관리할 수 있는 Runtric 전용 커스텀 마크다운 모듈을 개발하고, 카드형 UI를 적용해 가시성과 몰입도를 강화함.  
-    - 성과: 기존 전용 커스텀 마크다운 모듈화를 통해 [Reddit 피드백(“튜토리얼이 너무 쉽다”)](https://www.reddit.com/r/websitefeedback/comments/1nu9xe2/comment/nhcn20i/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)에 기반한 새 마크다운 UI를 빨리 작업할 수 있었으며 2주 내 정식 런칭 전에 반영할 수 있었음
+    - 성과: 기존 전용 커스텀 마크다운 모듈화를 응용해 [Reddit 피드백(“튜토리얼이 너무 쉽다”)](https://www.reddit.com/r/websitefeedback/comments/1nu9xe2/comment/nhcn20i/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)의 피드백을(새 마크다운 UI) 빨리 반영할 수 있었으며 2주 내 정식 런칭 전에 반영할 수 있었음
 
 2. 챕터 페이지 렌더링 지연 문제 해결  
    - 문제 및 배경: Runtric의 챕터 페이지는 서버로부터 전달받은 Markdown을 커스텀 UI로 변환하는 구조로, JS 청크가 커지고 렌더링 대기 시간이 발생할 수 있었음  
