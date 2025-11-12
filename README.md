@@ -40,8 +40,7 @@
       
 #### C. 토스증권 Page Transition 애니메이션 추가 검토 및 라이브러리 실험
 
-토스증권 서비스 내 Page Transition 애니메이션 추가 논의가 있었으나, 웹 퍼포먼스 이슈로 잠정 중단됨. 이후 Vertical Weekly(프론트엔드 소모임) 회의에서 당근마켓의 StackFlow 도입 방안이 검토됨.
-
+Vertical Weekly(프론트엔드 소모임) 회의에서 Page Transition 애니메이션 문제를 해결하기 위한 방안으로 당근마켓의 StackFlow 도입이 검토됨.
 
 ***해결한 주요 문제들***
 1. StackFlow와 현재 토스증권 웹뷰 프론트 환경의 불일치 방향성 확립에 기여  
@@ -89,7 +88,8 @@ AI와 Tutor와 함께하는 코딩 교육 플랫폼 [Runtric](https://runtric.co
 
 ## 사이드 프로젝트
 
-### [Mitmar'd DB](https://github.com/talmid-mitmared/mitmar-d-DB/tree/chunk/btree) **Frontend / 2025.04 ~ 2025.11**  
+#### [Mitmar'd DB](https://github.com/talmid-mitmared/mitmar-d-DB/tree/chunk/btree) - Frontend(2025.04 ~ 2025.11)
+
 - 문제 및 배경: 파일·폴더 검색 효율을 높이기 위해 개인용 데스크톱 DB를 개발하면서 TypeScript로 B-tree(Insert, Search, Delete) 인덱싱 알고리즘을 직접 구현함. 구현 과정에서 재귀 기반 트리 구조에서 참조(Mutability) 문제가 발생함  
 - 해결안: [React Fiber 접근 방식](https://github.com/facebook/react/issues/7942)을 응용하여 `do-while` 반복 구조로 리팩터링해 참조 불안정 문제를 해결하고, 안정적인 노드 순회 로직을 완성함
 
@@ -98,20 +98,14 @@ AI와 Tutor와 함께하는 코딩 교육 플랫폼 [Runtric](https://runtric.co
 
 ### 기타 (Etc)
 
-* **YouTube 기술 콘텐츠 제작**  
-  - 토스증권 근무 초기, 피드백받은 커뮤니케이션 문제를 개선하기 위해 매일 학습한 기술 개념을 YouTube에 설명 형식으로 업로드함  
-  - 이를 통해 커뮤니케이션 및 설명 역량을 강화했으며, 마진 거래 백오피스와 달러 송금 백오피스 서비스 완성에 기여함  
+* YouTube 기술 콘텐츠 제작: 토스증권 근무 초기, 피드백받은 커뮤니케이션 문제를 개선하기 위해 매일 학습한 기술 개념을 YouTube에 설명 형식으로 업로드함. 이를 통해 커뮤니케이션 및 설명 역량을 강화했으며, 마진 거래 백오피스와 달러 송금 백오피스 서비스 완성에 기여함  
 
-* **경동초등학교 코딩 봉사 (2025.10 ~ 2025.11)**  
-  - 기존 Scratch 커리큘럼이 학생 수준(4학년)과 맞지 않아, Python 기초 교육 과정을 직접 구성해 진행함  
-  - 설치 없이 웹 환경에서 변수와 입출력 등 Python 문법을 활용해 학생들이 자신의 이름과 값을 개인 웹사이트에 넣을 수 있도록 지도함  
-  - 1교시 반 만에 전원이 완성 목표를 달성했으며, 학생들의 코딩 입문에 대한 부담과 편견을 해소함
+* 경동초등학교 코딩 봉사 (2025.10 ~ 2025.11): 기존 Scratch 커리큘럼이 학생 수준(4학년)과 맞지 않아, Python 기초 교육 과정을 직접 구성해 진행함. 설치 없이 웹 환경에서 변수와 입출력 등 Python 문법을 활용해 학생들이 자신의 이름과 값을 개인 웹사이트에 넣을 수 있도록 지도함. 1교시 반 만에 전원이 완성 목표를 달성했으며, 학생들의 코딩 입문에 대한 부담과 편견을 해소시킴
 
 
 ### 학력 및 자격 (Education & Certifications)
 
-* **단국대학교 컴퓨터공학과 (B.Sc.)**
-  2021 ~ 현재 재학 중
+* 단국대학교 컴퓨터공학과 (B.Sc.): 2021 ~ 현재 재학 중
 
 
 ### 기술 스택 (Technologies & Languages)
