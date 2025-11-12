@@ -50,7 +50,7 @@
 
 # 창업
 
-## Founder, Frontend Developer — EXCIVIS(2025.04 ~ 2025.11, 7개월)
+### Founder, Frontend Developer — EXCIVIS(2025.04 ~ 2025.11, 7개월)
 
 - 베타 런칭 (2025.08.04 ~ 2025.08.25): 250명 방문, 1,329 페이지뷰 달성, Retention 3%  
 - 정식 런칭 (2025.10.13 ~ 2025.11.04): 3,643명 방문, 10,596 페이지뷰 달성. 독일 기술 매체 [t3n](https://t3n.de/news/programmieren-lernplattform-runtric-1712059/)에 소개되었으며,  
@@ -69,9 +69,8 @@ AI와 Tutor와 함께하는 코딩 교육 플랫폼 [Runtric](https://runtric.co
 2. 개발·QA 환경 분리 작업  
     - 문제 및 배경: Production과 Development 환경이 분리되지 않아 안정적인 서비스 운영과 효율적인 개발이 어려웠으며, QA 환경과 SEO 크롤링 정책에서도 혼선이 발생함  
     - 해결안 (1): 클라이언트 플랫폼 담당으로서 서버 환경에 맞게 Local / Alpha / Live 환경을 구축하여 독립적인 개발·배포 구조를 완성함  
-    - 해결안 (2): Alpha 환경에는 Admin API와 연동된 Admin Tool을 추가해 QA 효율을 개선하고, Local 환경에서는 Cloudflare Tunnel과 `local.runtric` DNS alias를 적용해 Next.js 로컬 환경을 맥 시뮬레이터와 연결함으로써 전체 방문자의 41%를 차지하는 모바일 유저 테스트 참여율을 향상시킴  
-    - 해결안 (3): Alpha 환경이 Googlebot에 의해 크롤링되는 문제를 해결하기 위해 빌드 스크립트를 통해 환경(`local`, `alpha`, `live`)에 맞는 `robots.txt` 및 `sitemap.xml`  생성함
-    - 성과: 안정적인 개발·운영 프로세스를 확보하고, QA 효율과 모바일 테스트 대응률을 향상시킴
+    - 해결안 (2): Alpha 환경에는 Admin API와 연동된 Admin Tool을 추가해 QA 효율을 개선하고, Local 환경에서는 Cloudflare Tunnel과 `local.runtric` DNS alias를 적용해 Next.js 로컬 환경을 맥 시뮬레이터와 연결함
+    - 성과: 안정적인 개발·운영 프로세스를 확보하고, QA 효율과 전체 방문자의 41%를 차지하는 모바일 유저 테스트 참여율을 향상시킴  
 
 
 ***마주한 주요 문제들***
