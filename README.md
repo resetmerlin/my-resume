@@ -122,6 +122,19 @@ AI와 Tutor와 함께하는 코딩 교육 플랫폼 [Runtric](https://runtric.co
 
 ## 기술 스택 (Technologies & Languages)
 
-* **언어:** TypeScript, JavaScript, HTML, CSS
-* **기술:** React, Next.js, TailwindCSS, React Query, AWS, Turborepo, SCSS
+* **언어:** ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black) ![HTML](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white) ![CSS](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
+* **기술:** ![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black) ![Next.js](https://img.shields.io/badge/Next.js-000000?logo=nextdotjs&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-06B6D4?logo=tailwindcss&logoColor=white) ![React Query](https://img.shields.io/badge/React%20Query-FF4154?logo=reactquery&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-232F3E?logo=amazonaws&logoColor=white) ![Turborepo](https://img.shields.io/badge/Turborepo-000000?logo=turborepo&logoColor=white), ![SCSS](https://img.shields.io/badge/SCSS-CC6699?logo=sass&logoColor=white)
+
+
+
+
+
+
+
+
+
+
+
+
+
 
