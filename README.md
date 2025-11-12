@@ -10,15 +10,16 @@
 
 # 경력
 
-## Frontend Developer Assistant (Contract) — 토스 증권 @ US Option Silo, Overseas Platform Team (2024.04 ~ 2024.12, 9개월)
+### Frontend Developer Assistant (Contract) — 토스 증권(2024.04 ~ 2024.12, 9개월)
+*@ US Option Silo, Overseas Platform Team*
 
-### A. Option Silo Team(옵션 사일로 팀)
+#### A. Option Silo Team(옵션 사일로 팀)
   토스증권 앱(WebView 기반) 내 옵션 상품 관련 기능 개발 담당.
 
 주요 참여 제품들
 - 토스 증권 앱 개별 종목 상세 화면 속 **주식 옵션 가격 예측기**, **옵션 포지션 수익 계산기** 기능 개발(프론트 2명, 서버 2명, PO 1명, 프로덕트 디자이너 1명)
 
-### B. Overseas Platform Team(해외 주식 플랫폼 팀)
+#### B. Overseas Platform Team(해외 주식 플랫폼 팀)
   금융 상품 출시 시, 운영팀이 내부 이슈 처리에 필요한 핵심 데이터와 도구에 접근할 수 있도록 **백오피스** 를 개선 및 개발.
   
 주요 참여 제품들
