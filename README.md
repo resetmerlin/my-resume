@@ -94,11 +94,22 @@ AI와 Tutor와 함께하는 코딩 교육 플랫폼 [Runtric](https://runtric.co
 
 ---
 
-## 사이드 프로젝트
+## 사이드 프로젝트(Efforts to improve CS)
+퇴사 전 피드백 받은 CS 지식을 보완하기 위해 시작,
+
+
+### [Mitmar'd DB](https://github.com/talmid-mitmared/mitmar-d-DB/tree/chunk/btree) - Frontend(@TODO, 너무 과함. 삭제가 필요할 수도?)
+컴퓨터 내 파일, 및 폴더 찾는게 어려워 개인 Desktop DB를 사용하면 어떨까 싶어 제작
+
+**2025년 4월 ~ 2025년 11월**
+1. B-tree(Insert, Search, Delete) 인덱싱 알고리즘을 Typescript로 구현, Iterator 디자인 패털을 이용하여 추후 B+Tree 도입시 재사용할 수 있도록 작업
+2. Monorepo를 통해 B-tree 모듈을 패키지로 넣어 service단의 Eletron App 기반에서 사용할 수 있도록 작업
+3. Eletron + CRA를 이용해 뷰를 렌더링할 수 있도록 함.
+4. B-tree 제작중 recurssion으로 reference를 한 후 부모에 자식을 넣을려고 했으나 Mutability 문제 발견, 오히려 이 레페런스 값들을 예측할 수 없어 버그가 존재,[ Facebook React Fiber approach를](https://github.com/facebook/react/issues/7942) 이용해 do while syntax로 마이그레이션 하여 해당 문제 해결
 
 ### [WebOs](https://github.com/resetmerlin/Web-OS/tree/main) - Frontend(@TODO, 너무 과함. 삭제가 필요할 수도?)
-**2025년 12월 ~ 2025년 2월**
-퇴사 전 피드백 받은 CS 지식을 보완하기 위해 시작, OS 공부 중 컴퓨터 아키텍처의 중요성을 깨달은 후 잊어버리지 않기 위해 typescript로 Web OS를 만들려는 시도
+OS 공부 중 컴퓨터 아키텍처의 중요성을 깨달은 후 잊어버리지 않기 위해 typescript로 Web OS를 만들려는 시도
+**2024년 12월 ~ 2025년 2월**
 1. x86, fetch-decode-execute cycle 및 bus와 비슷하게 웹 CustomEvent를 응용해 생성
 2. Real Mode, Long Mode에 맞게 bit 사이즈 설정하여 Program Counter와 Offeset 값을 이용하여 다음 Instruction을 가져오는 로직 생성
 
