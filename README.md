@@ -42,7 +42,7 @@
 
 # 창업
 
-### Founder, Frontend Developer — EXCIVIS(2025.04 ~ 2025.11, 7개월)
+### Founder, Frontend Developer — EXCIVIS(2025.04 ~ 진행 중, 7개월)
 
 
 AI와 Tutor와 함께하는 코딩 교육 플랫폼 [Runtric](https://runtric.com/) 프론트엔드 개발 <br/>
@@ -78,22 +78,22 @@ AI와 Tutor와 함께하는 코딩 교육 플랫폼 [Runtric](https://runtric.co
    - 문제 및 배경: Runtric의 챕터 페이지는 서버로부터 전달받은 Markdown을 커스텀 UI로 변환하는 구조로, JS 청크가 커지고 렌더링 대기 시간이 발생할 수 있었음  
    - 해결안: **SSG를 적용해 튜토리얼을 빌드 타임에 HTML로 프리렌더링**하고, 동기화를 위해 전체 재빌드 대신 **Next.js SSR을 활용해 런타임에서 API 기반 HTML 렌더링**을 수행함  
    - 성과 (1): 미리 빌드된 HTML이 서버 데이터와 불일치하여 404 fallback 페이지로 이동하던 문제를 방지함  
-   - 성과 (2): 정식 런칭 시 예기치 못한 해외 트래픽(예: 독일 지역)에서도 API 호출 전 **사전 빌드된 HTML을 즉시 전달**할 수 있게 함
+   - 성과 (2): 정식 런칭때 예기치 못한 해외 트래픽(예: 독일 지역)에서도 API 호출 전 **사전 빌드된 HTML을 즉시 전달**할 수 있게 함
 
     
 3. 비회원·회원 기능 확장  
    - 문제 및 배경: 베타 런칭 후 로깅 분석 결과, 회원가입 없이 이탈하는 사용자가 많아 핵심 기능에 대한 이용 성향과 선호도를 정확히 파악하기 어려웠음  
    - 해결안 (1): 기존 회원 전용 서비스를 비회원도 이용할 수 있도록 **OAuth2 인증 시스템을 확장**하고, 단일 API Client 모듈에 회원·비회원 기반 **토큰 재검증 로직**을 추가함  
    - 해결안 (2): 인증 토큰을 **인메모리에 저장해 추출을 방지**하고, **Worker Thread를 통해 인증 API를 별도 스레드에서 안전하게 갱신**하도록 설계함  
-   - 성과: 정식 런칭 시 3,600명 이상이 회원가입 없이 핵심 기능을 이용할 수 있었으며, 제품 이탈 원인을 회원가입 과정 때문이 아닌 **기능 사용도 기반으로 분석할 수 있는 환경을 구축함**
+   - 성과: 정식 런칭때 2,500명 이상이 회원가입 없이 핵심 기능을 이용할 수 있었으며, 제품 이탈 원인을 회원가입 과정 때문이 아닌 **기능 사용도 기반으로 분석할 수 있는 환경을 구축함**
 
 
 ## 사이드 프로젝트
 
-#### [Mitmar'd DB](https://github.com/talmid-mitmared/mitmar-d-DB/tree/chunk/btree) - Frontend(2025.04 ~ 2025.11)
+#### [Mitmar'd DB](https://github.com/talmid-mitmared/mitmar-d-DB/tree/chunk/btree) - Frontend(2025.04 ~ 진행 중)
 
 - 문제 및 배경: 파일·폴더 검색 효율을 높이기 위해 개인용 데스크톱 DB를 개발하면서 TypeScript로 B-tree(Insert, Search, Delete) 인덱싱 알고리즘을 직접 구현함. 구현 과정에서 재귀 기반 트리 구조에서 참조(Mutability) 문제가 발생함  
-- 해결안: [React Fiber 접근 방식](https://github.com/facebook/react/issues/7942)을 응용하여 `do-while` 반복 구조로 변경 후 참조 불안정 문제를 해결하고, 안정적인 노드 순회 로직을 완성함
+- 해결안: [React Fiber 접근 방식](https://github.com/facebook/react/issues/7942)을 참고해 재귀대신 `do-while` 반복 구조로 변경 후 참조 불안정 문제를 해결하고, 안정적인 노드 순회 로직을 완성함
 
 ---
 
