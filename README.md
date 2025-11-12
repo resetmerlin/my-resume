@@ -94,14 +94,16 @@ AI와 Tutor와 함께하는 코딩 교육 플랫폼 [Runtric](https://runtric.co
 
 
 
-# 사이드 프로젝트
+## 사이드 프로젝트
 
 ### [Mitmar'd DB](https://github.com/talmid-mitmared/mitmar-d-DB/tree/chunk/btree) **Frontend / 2025.04 ~ 2025.11**  
 - 문제 및 배경: 파일·폴더 검색 효율을 높이기 위해 개인용 데스크톱 DB를 개발하면서 TypeScript로 B-tree(Insert, Search, Delete) 인덱싱 알고리즘을 직접 구현함. 구현 과정에서 재귀 기반 트리 구조에서 참조(Mutability) 문제가 발생함  
 - 해결안: [React Fiber 접근 방식](https://github.com/facebook/react/issues/7942)을 응용하여 `do-while` 반복 구조로 리팩터링해 참조 불안정 문제를 해결하고, 안정적인 노드 순회 로직을 완성함
 
+---
 
-# 기타 (Etc)
+
+### 기타 (Etc)
 
 * **YouTube 기술 콘텐츠 제작**  
   - 토스증권 근무 초기, 피드백받은 커뮤니케이션 문제를 개선하기 위해 매일 학습한 기술 개념을 YouTube에 설명 형식으로 업로드함  
@@ -113,13 +115,13 @@ AI와 Tutor와 함께하는 코딩 교육 플랫폼 [Runtric](https://runtric.co
   - 1교시 반 만에 전원이 완성 목표를 달성했으며, 학생들의 코딩 입문에 대한 부담과 편견을 해소함
 
 
-# 학력 및 자격 (Education & Certifications)
+### 학력 및 자격 (Education & Certifications)
 
 * **단국대학교 컴퓨터공학과 (B.Sc.)**
   2021 ~ 현재 재학 중
 
 
-# 기술 스택 (Technologies & Languages)
+### 기술 스택 (Technologies & Languages)
 
 * **언어:** ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black) ![HTML](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white) ![CSS](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
 * **기술:** ![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black) ![Next.js](https://img.shields.io/badge/Next.js-000000?logo=nextdotjs&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-06B6D4?logo=tailwindcss&logoColor=white) ![React Query](https://img.shields.io/badge/React%20Query-FF4154?logo=reactquery&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-232F3E?logo=amazonaws&logoColor=white) ![Turborepo](https://img.shields.io/badge/Turborepo-000000?logo=turborepo&logoColor=white), ![SCSS](https://img.shields.io/badge/SCSS-CC6699?logo=sass&logoColor=white)
