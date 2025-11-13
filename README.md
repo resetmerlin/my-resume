@@ -105,7 +105,7 @@ AI와 Tutor와 함께하는 코딩 교육 플랫폼 [Runtric](https://runtric.co
 
 ### 학력 및 자격
 
-* 단국대학교 컴퓨터공학과 (B.Sc.): 2021 ~ 현재 재학 중
+* 단국대학교 소프트웨어학과 (B.Sc.): 2021 ~ 현재 재학 중
 
 
 ### 기술 스택 (Technologies & Languages)
